@@ -1,9 +1,11 @@
 # _______________ФАЙЛЫ________________________________
 
 
-# with open('file.txt', 'w') as data:
-#     data.write('line 1\n')
-#     data.write('line 2235\n')
+with open('file.txt', 'w') as data:
+    data.write(' 10\n')
+    data.write('2235\n')
+    data.write('22\n')
+    data.write(' 12\n')
 
 
 # colors = ['red', 'green', 'blue']
@@ -126,14 +128,14 @@
 # ___________Словари_______________
 
 
-dictionary = {}
-dictionary = \
-    {
-        'up': '↑',
-        'left': '←',
-        'down': '↓',
-        'right': '→'
-    }
+# dictionary = {}
+# dictionary = \
+#     {
+#         'up': '↑',
+#         'left': '←',
+#         'down': '↓',
+#         'right': '→'
+#     }
 # print(dictionary) # {'up':'↑', 'left':'←', 'down':'↓', 'right':'→'}
 # print(dictionary['left']) # ←
 # # типы ключей могут отличаться
@@ -245,21 +247,21 @@ dictionary = \
 
 #___________________________________________________
 
-list1=[1,2,3,4,7]
+# list1=[1,2,3,4,7]
 
-print(list1)
-print (list1.pop())
-print(len(list1))
-print(list1)
-print (list1.pop())
-print(len(list1))
-print(list1)
-print (list1.pop())
-print(len(list1))
-print (list1.insert(2,11))
-print(list1)
-print (list1.append(25))
-print(list1)
+# print(list1)
+# print (list1.pop())
+# print(len(list1))
+# print(list1)
+# print (list1.pop())
+# print(len(list1))
+# print(list1)
+# print (list1.pop())
+# print(len(list1))
+# print (list1.insert(2,11))
+# print(list1)
+# print (list1.append(25))
+# print(list1)
 
 
 
