@@ -1,5 +1,5 @@
-import imp                            # Модуль который поставляет данные 
-from random import randint
+import imp                            
+from random import randint                                    # Модуль который поставляет данные 
 
 def get_temperature(sensor):
     return randint(-20, 0) if sensor else randint(0, 20)
